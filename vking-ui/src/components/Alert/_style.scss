@@ -1,0 +1,44 @@
+.alert {
+  width: 500px;
+  padding: 10px 20px;
+  border-radius: $border-radius;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+//   display: none;
+  .alert-content {
+    width: calc(100% - 20px);
+    display: inline-block;
+    position: relative;
+    h2 {
+      overflow: hidden;
+      width: 100%;
+      text-align: left;
+      text-overflow: inherit;
+      white-space: nowrap;
+    }
+  }
+  .alert-on-of {
+    position: absolute;
+    top: 0px;
+    right: -20px;
+    text-align: center;
+  }
+  .alert-disable-block {
+    display: block;
+  }
+}
+.alert-success {
+ background: $success;
+}
+.alert-primary {
+ background: $primary;
+}
+.alert-danger {
+ background: $danger;
+}
+.alert-warning {
+ background: $warning;
+}
