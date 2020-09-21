@@ -24,11 +24,12 @@ function App() {
         <Button btnType={ButtonType.Link} href='http://www.baidu.com' target="_blank"> link hello world</Button>
         <Button btnType={ButtonType.Link} href='http://www.baidu.com' disabled={true}> link hello world</Button> */}
         <Alert
-          title="Larg hello worldLarg hello worldLarg hello world"
+          // title="Larg hello worldLarg hello worldLarg hello world"
           type="success"
           open={true}
+          // show={false}
         >
-          AlertAlertAlertAlertAlert
+          AlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlert
         </Alert>
 
         {/* <Alert

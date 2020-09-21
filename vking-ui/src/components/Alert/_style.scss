@@ -7,11 +7,21 @@
   left: 0;
   right: 0;
   margin: auto;
+  min-height: 10px;
 //   display: none;
   .alert-content {
-    width: calc(100% - 20px);
-    display: inline-block;
+    // width: calc(100% - 20px);
+    // display: inline-block;
     position: relative;
+    .alert-children-content {
+     word-break:normal; 
+     width:auto; 
+     display:block; 
+     white-space:pre-wrap;
+     word-wrap : break-word ;
+     overflow: hidden ;
+     text-align:justify
+    }
     h2 {
       overflow: hidden;
       width: 100%;
@@ -22,8 +32,8 @@
   }
   .alert-on-of {
     position: absolute;
-    top: 0px;
-    right: -20px;
+    top: -10px;
+    right: -10px;
     text-align: center;
   }
   .alert-disable-block {

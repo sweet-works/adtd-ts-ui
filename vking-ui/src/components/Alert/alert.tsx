@@ -19,7 +19,7 @@ const Alert: React.FC<AlertPorps> = (props): any => {
     return opens ? <div className={classes}>
         <div className="alert-content">
             {title && <h2>{title}</h2>}
-            <span>{children}</span>
+            <p className='alert-children-content'>{children}</p>
             {show && <span className='alert-on-of' onClick={() => setOpen(false)}>{'+'}</span>}
         </div>
     </div> : null
