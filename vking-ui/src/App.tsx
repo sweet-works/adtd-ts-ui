@@ -15,11 +15,13 @@ function App() {
         <h1>hello world</h1>
         <h2>hello world</h2>
         <h3>hello world</h3>
-        <Button btnType={ButtonType.Primary} size={ButtonSize.Larg}>Larg hello world</Button>
+        <Button className='kingssss' btnType={ButtonType.Primary} size={ButtonSize.Larg} onClick={(e) => {
+          alert('12345')
+        }}>Larg hello world</Button>
         <Button btnType={ButtonType.Default} size={ButtonSize.Samll}>Samll hello world</Button>
         <Button btnType={ButtonType.Danger} size={ButtonSize.Samll}>Danger hello world</Button>
         <Button btnType={ButtonType.Primary} disabled={true}>hello world</Button>
-        <Button btnType={ButtonType.Link} href='http://www.baidu.com'> link hello world</Button>
+        <Button btnType={ButtonType.Link} href='http://www.baidu.com' target="_blank"> link hello world</Button>
         <Button btnType={ButtonType.Link} href='http://www.baidu.com' disabled={true}> link hello world</Button>
         <p> 
           Edit <code>src/App.tsx</code> and save to reload.
