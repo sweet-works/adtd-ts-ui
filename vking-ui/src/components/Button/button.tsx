@@ -15,6 +15,7 @@ interface BaseButtonPorps {
     className?: string,
     disabled?: boolean,
     size?: ButtonSize,
+    // btnType?: 'primary' | 'default' | 'danger' | 'link',
     btnType?: ButtonType,
     children: React.ReactNode,
     href?: string,

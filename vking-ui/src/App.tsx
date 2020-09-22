@@ -4,10 +4,6 @@ import './styles/index.scss';
 import { Button, Alert  } from './components/index';
 import { ButtonType, ButtonSize} from './components/Button/button';
 function App() {
-  let a = '123';
-  if (a === '123') {
-    console.log(123);
-  }
   return (
     <div className="App">
       <header className="App-header">
@@ -26,17 +22,12 @@ function App() {
         <Alert
           // title="Larg hello worldLarg hello worldLarg hello world"
           type="success"
-          open={true}
+          open={false}
           // show={false}
         >
           AlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlertAlert
         </Alert>
-
-        {/* <Alert
-        >
-          AlertAlertAlertAlertAlert
-        </Alert> */}
-        <p> 
+         <p> 
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
